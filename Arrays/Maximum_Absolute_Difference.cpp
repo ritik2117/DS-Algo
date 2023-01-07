@@ -4,7 +4,7 @@ Return the maximum value of f(i, j) for all 1 ≤ i, j ≤ N. f(i, j) is defined
 |A[i] - A[j]| + |i - j|, where |x| denotes absolute value of x.
 */
 
-int Solution::maxArr(vector<int> &A) 
+int Solution::maxArr(vector<int> &A)
 {
     int i,N,Xmax,Xmin,Ymax,Ymin,x,y;
     N = A.size();
