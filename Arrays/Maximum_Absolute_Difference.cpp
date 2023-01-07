@@ -14,7 +14,7 @@ int Solution::maxArr(vector<int> &A)
     {
         x = A[i] + i;
         Xmax = max(x, Xmax);
-        Xmin = min(x, Xmin);
+        Xmin = min(x, Xmin);  
 
         y = A[i] - i;
         Ymax = max(y, Ymax);
